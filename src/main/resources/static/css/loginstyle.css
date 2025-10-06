@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image: url('../images/loginbackground.jpg');
+}
+#card{
+    height: 500px;
+    width: 492px;
+    background-color: white;
+    position:absolute;
+    top:99px;
+    left:537px;
+    border: width 3px;
+    border-style: solid;
+    border-radius:9px;
+    border-color:brown;
+        
+}
+#label{
+    display:block;
+    height:50px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(207,86,99);
+    display: flex;
+    justify-content: center;
+    position:relative;
+    top:50px;
+}
+#email{
+    display:block;
+    height:54px;
+    width: 400px;
+    border-width:1px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: black;
+    position:relative;
+    top:63px;
+    left:50px;
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+}
+#password{
+    display:block;
+    height:54px;
+    width: 400px;
+    border-width:1px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: black;
+    position:relative;
+    top:100px;
+    left:50px;
+    font-size:large;
+    font-weight:700;
+    text-align:center;
+}
+#checkbox{
+    position:relative;
+    top:110px;
+    left:60px;
+    font-size:medium;
+    font-weight: 400;
+}
+#submit{
+    height:46px;
+    width:110px;
+    background-color: rgb(207,86,99);
+    position:relative;
+    top:200px;
+    left:90px;
+    border-width:3px;
+    border-style:solid;
+    border-color:rgb(207,86,99);
+    border-radius:3px;
+    color:white;
+    font-weight: 700;
+}
+#forgot{
+    position:relative;
+    top:245px;
+    left:10px;
+    font-size:medium;
+    font-weight: 700;
+    
+}
+#newuser{
+    position:relative;
+    top:280px;
+    left:-70px;
+    font-size: medium;
+    font-weight: 700;
+}

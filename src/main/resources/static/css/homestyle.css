@@ -1,0 +1,194 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#navbar{
+    display:flex;
+    justify-content:space-evenly;
+    height: 80px;
+    width: 100vw;
+    background-color:#10455B;
+    font-style: normal;
+}
+a{
+    color:white;
+    text-decoration: none;
+    margin-top:20px;
+    font-size: larger;
+    font-weight: bold;
+}
+#logo{
+    background-image: url("../images/logo.png");
+    background-size:cover;
+    height:1000px;
+    width:100vw;
+}
+#cuisines{
+    height:600px;
+    width:100vw;
+    background-color:aliceblue;
+    margin-top:-50px;
+
+}
+#cuisinetext{
+    padding-top:10px;
+    padding-left: 650px;
+    text-decoration: #10455B;
+    text-transform:uppercase;
+    font-size:30px;
+    
+}
+.cb{
+    margin-left: 80px;
+    margin-top:50px;
+    border-width:3px;
+    border-radius: 10%;
+}
+#nic{
+    display:inline-block;
+    align-items:center;
+    height:240px;
+    width:280px;
+    background-image: url('../images/northindian2.jpg');
+    background-size:cover;
+}
+#sic{
+    display:inline-block;
+    height:240px;
+    width:280px;
+    background-image:url('../images/southindian2.jpg');
+    background-size:cover;
+}
+#jc{
+    display:inline-block;
+    height:240px;
+    width:280px;
+    background-image:url('../images/jain2.png');
+    background-size:cover;
+}
+#gc{
+    display:inline-block;
+    height:240px;
+    width: 280px;
+    background-image:url('../images/gujarati.jpg');
+    background-size:cover;
+}
+#northcuisinedescription{
+    display:inline-block;
+    position:relative;
+    margin-left:100px;
+}
+#southcuisinedescription{
+    display:inline-block;
+    margin-left:90px;
+
+}
+#jaincuisinedescription{
+    display:inline-block;
+    margin-left:110px;
+}
+#gujaraticuisinedescription{
+    display:inline-block;
+    margin-left:110px;
+    margin-top:30px;
+}
+#wtd{
+    height:600px;
+    width:100vw;
+    background-color:cornsilk;
+}
+.photowtd{
+    margin-top:80px;
+    margin-left:150px;
+    border-width:3px;
+    border-style: solid;
+    border-color: #10455B;
+}
+#wtdtext{
+    position:relative;
+    margin-left:40vw;
+    margin-top:20px;
+    font-size:50px;
+    text-transform:uppercase;
+}
+#bestingredients{
+    display:inline-block;
+    height:250px;
+    width:250px;
+    background-image: url('../images/ingredient.jpg');
+
+}
+#amazingvariety{
+    display:inline-block;
+    height:250px;
+    width:250px;
+    background-image: url('../images/amazinvariety.jpg');
+}
+#gharkakhana{
+    display:inline-block;
+    height:250px;
+    width:250px;
+    background-image: url('../images/gharkakhana.jpg');
+}
+#bestingredientstext{
+    text-transform: uppercase;
+    font-size: 20px;
+    position:relative;
+    margin-left:160px;
+    font-weight: 700;
+
+}
+#amazingvarietytext{
+    text-transform: uppercase;
+    font-size: 20px;
+    position:relative;
+    margin-left:200px;
+    font-weight: 700;
+}
+#gharkakhanatext{
+    text-transform: uppercase;
+    font-size: 20px;
+    position:relative;
+    margin-left:250px;
+    font-weight: 700;
+}
+#subcriptions{
+    display:flex;
+    justify-content:space-evenly;
+    height:700px;
+    width:100vw;
+    background-color:azure;
+}
+#subscriptiontext{
+    margin-left:700px;
+    font-size: 30px;
+    font-weight:700;
+}
+#daily{
+    margin-top: 60px;
+    display:inline-block;
+    height:600px;
+    width:400px;
+    background-color:#a78667;
+    border-width:3px;
+    border-radius:15px;
+}
+#monthly{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 60px;
+    display:inline-block;
+    height:600px;
+    width:400px;
+    background-color:#ffecd1;
+    border-width:3px;
+    border-radius:15px;
+}
+
+#testimonials{
+    height:700px;
+    width:100vw;
+    background-image: url('../images/testimonial.jpg');
+}
