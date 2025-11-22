@@ -9,18 +9,18 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
-public class RegisterController {
+public class IndexController {
 
     @Autowired
     private final  UserRepository userRepository;
 
-    public RegisterController(UserRepository userRepository){
+    public IndexController(UserRepository userRepository){
         this.userRepository = userRepository;
     }
 
     @GetMapping("/")
     public String start(){
-        return "register";
+        return "index";
     }
 
     @GetMapping("/login")
