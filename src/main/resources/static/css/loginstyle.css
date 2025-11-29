@@ -95,3 +95,12 @@ body{
     font-size: medium;
     font-weight: 700;
 }
+#loading{
+    display:none;
+    height:212px;
+    width:212px;
+    position:absolute;
+    top:35%;
+    left:45%;
+    z-index: 1;
+}

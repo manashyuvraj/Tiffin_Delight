@@ -23,11 +23,6 @@ public class IndexController {
         return "index";
     }
 
-    @GetMapping("/login")
-    public String loginpage(){
-        return "login";
-    }
-
     @GetMapping("/home")
     public String homepage(){
         return "home";

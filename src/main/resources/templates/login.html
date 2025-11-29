@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeLeaf.org">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="stylesheet" href="../static/css/loginstyle.css" th:href="@{css/loginstyle.css}">
-</head>
-<body>
-    <div id="card">
-        <form action="login" method="post">
-    <label id="label">Login</label>
-    <input type="email" placeholder="Email" id="email" name="email">
-    <input type="password" placeholder="Password" id="password" name="password">
-    <label id="checkbox"><input type="checkbox" >Show Password</label>
-    <button id="submit">SIGN IN</button>
-    <a href="" id="forgot">Forgot</a>
-    <a href="" id="newuser">New User/Sign Up</a>
-        </form>
+    <link
+      rel="stylesheet"
+      href="../static/css/loginstyle.css"
+      th:href="@{css/loginstyle.css}"
+    />
+  </head>
+  <body>
+    <div id="loading">
+      <center>
+        <img
+          src="../static/images/loading.gif"
+          alt="loading gif"
+          height="200px"
+          width="200px"
+        />
+      </center>
     </div>
-</body>
-</body>
+    <div id="card">
+      <form action="putmein" method="post">
+        <label id="label">Login</label>
+        <input type="email" placeholder="Email" id="email" name="email" />
+        <input
+          type="password"
+          placeholder="Password"
+          id="password"
+          name="password"
+        />
+        <label id="checkbox"><input type="checkbox" />Show Password</label>
+        <button id="submit" onclick="setTimeout(myFunction, 5000);">SIGN IN</button>
+        <a href="" id="forgot">Forgot</a>
+        <a href="" id="newuser">New User/Sign Up</a>
+      </form>
+    </div>
+    <script th:src="@{js/login.js}" src="../static/js/login.js"></script>
+  </body>
 </html>
